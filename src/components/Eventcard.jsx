@@ -1,4 +1,6 @@
-import './Eventcard.css';
+
+import { Link } from "react-router-dom";
+import "./Eventcard.css";
 
 function EventCard({
   event,
@@ -40,14 +42,14 @@ function EventCard({
             className="register-btn"
             onClick={() => onRegister(event.id)}
           >
-            {isRegistered ? 'Registered' : 'Register'}
+            {isRegistered ? "Registered" : "Register"}
           </button>
 
           <button
             className="favorite-btn"
             onClick={() => onFavorite(event.id)}
           >
-            {isFavorite ? '★ Favorited' : 'Add Favorite'}
+            {isFavorite ? "★ Favorited" : "Add Favorite"}
           </button>
 
           <button
@@ -56,6 +58,13 @@ function EventCard({
           >
             Remove Event
           </button>
+
+          <Link
+            to={`/events/${event.id}`}
+            className="view-details-btn"
+          >
+            View Details →
+          </Link>
         </div>
       </div>
     </div>

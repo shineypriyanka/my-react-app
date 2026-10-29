@@ -89,3 +89,32 @@
   }
 }
 
+/* Dark theme text fixes */
+.App.theme-dark .events-header h2,
+.App.theme-dark .events-header h3,
+.App.theme-dark .events-header p {
+  color: #f8fafc;
+}
+
+.App.theme-dark .event-search,
+.App.theme-dark .event-sort label {
+  color: #f8fafc;
+}
+
+/* Dark theme: event section */
+.App.theme-dark .events-page {
+  color: #f8fafc;
+}
+
+.App.theme-dark .events-header h1,
+.App.theme-dark .events-header h2,
+.App.theme-dark .events-header h3,
+.App.theme-dark .events-header p,
+.App.theme-dark .no-events {
+  color: #f8fafc;
+}
+
+.App.theme-dark .events-subtitle {
+  color: #cbd5e1;
+}
+

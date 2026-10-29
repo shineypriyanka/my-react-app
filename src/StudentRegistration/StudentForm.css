@@ -160,3 +160,39 @@ body {
     flex-direction: column;
   }
 }
+
+/* Dark theme registration form fixes */
+.App.theme-dark #registration label,
+.App.theme-dark #registration legend,
+.App.theme-dark #registration h1,
+.App.theme-dark #registration h2,
+.App.theme-dark #registration h3,
+.App.theme-dark #registration p {
+  color: #f8fafc;
+}
+
+/* Dark theme: registration form text */
+.App.theme-dark .registration-container {
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+.App.theme-dark .registration-container h1,
+.App.theme-dark .registration-container h2,
+.App.theme-dark .registration-container label,
+.App.theme-dark .registration-container legend {
+  color: #f8fafc;
+}
+
+.App.theme-dark .registration-container input:not([type="radio"]),
+.App.theme-dark .registration-container select,
+.App.theme-dark .registration-container textarea {
+  background-color: #0f172a;
+  color: #f8fafc;
+  border-color: #475569;
+}
+
+.App.theme-dark .registration-container input::placeholder,
+.App.theme-dark .registration-container textarea::placeholder {
+  color: #94a3b8;
+}

@@ -122,3 +122,21 @@
     padding: 8px;
   }
 }
+.view-details-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border: 1px solid #3025e9;
+  border-radius: 8px;
+  color: #3025e9;
+  background: transparent;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  transition: background 0.2s, color 0.2s;
+}
+
+.view-details-btn:hover {
+  background: #3025e9;
+  color: #ffffff;
+}

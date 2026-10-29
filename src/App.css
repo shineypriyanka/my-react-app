@@ -56,6 +56,10 @@ body {
 .navbar nav a:hover {
   color: #3025e9;
 }
+.navbar nav a.active {
+  color: #3025e9;
+  font-weight: 800;
+}
 
 /* Hero section */
 .hero {
@@ -162,3 +166,65 @@ body {
     font-size: 14px;
   }
 }
+
+
+/* Dark theme */
+.App.theme-dark {
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+.App.theme-dark .navbar {
+  background-color: #111827;
+  border-bottom: 1px solid #334155;
+}
+
+.App.theme-dark .navbar .logo,
+.App.theme-dark .navbar nav a {
+  color: #f8fafc;
+}
+
+.App.theme-dark .navbar nav a:hover {
+  color: #a5b4fc;
+}
+
+.App.theme-dark .hero {
+  background: linear-gradient(180deg, #172033 0%, #0f172a 100%);
+}
+
+.App.theme-dark .hero h1 {
+  color: #f8fafc;
+}
+
+.App.theme-dark .hero-label,
+.App.theme-dark .hero-description {
+  color: #cbd5e1;
+}
+
+.App.theme-dark #events,
+.App.theme-dark #registration {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+.App.theme-dark .theme-toggle {
+  color: #f8fafc;
+  border-color: #64748b;
+}
+
+.theme-toggle {
+  padding: 9px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.theme-toggle:hover {
+  opacity: 0.8;
+}
+
